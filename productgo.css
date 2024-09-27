@@ -1,0 +1,615 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('darkblue.png');
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.rangkapatas {
+  background-color: #000;
+  display: flex;
+  width: 100%;
+  height: 16vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 80px;
+}
+.menu a:hover {
+  color: #093954;
+}
+
+.isian_navbar img {
+  padding: 50px;
+  width: 175px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 12px;
+}
+
+.menu > li {
+  list-style-type: none;
+  padding: 30px;
+}
+
+.menu > li > a {
+  color: white;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.navbar-extra a {
+  color: #ffff;
+  margin: 0 0.5rem;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.contact-label {
+  font-size: 25px;
+  color: white;
+}
+
+.contact-item img {
+  padding: 10px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product h1 {
+  color: white;
+  font-size: 30px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bag1 {
+  height: 500px;
+}
+.bag2 {
+  height: 550px;
+}
+.gambar {
+  width: 200px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  height: 700px;
+  /* padding: 20px; */
+}
+.product_card {
+  background-color: #001357;
+  margin: 50px;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 50px;
+  width: 300px; /* Ubah ukuran lebar sesuai kebutuhan */
+  height: 400px; /* Ubah ukuran tinggi sesuai kebutuhan */
+  border-radius: 10%;
+}
+
+.product_card h3 {
+  color: white;
+}
+
+.product_card p {
+  color: white;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.product_card:hover {
+  top: 0;
+  background-color: #009fe9;
+  transition: all 0.3s;
+}
+button {
+  background-color: white;
+  width: 70px;
+  height: 30px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #093954;
+    font-family: "Poppins";
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .rangkapatas {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: 16vh;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+  }
+  .menu a:hover {
+    color: #093954;
+  }
+
+  .isian_navbar img {
+    padding: 50px;
+    width: 175px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 12px;
+  }
+
+  .menu > li {
+    list-style-type: none;
+    padding: 30px;
+  }
+
+  .menu > li > a {
+    color: white;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  .navbar-extra a {
+    color: #ffff;
+    margin: 0 0.5rem;
+  }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-label {
+    font-size: 25px;
+    color: white;
+  }
+
+  .contact-item img {
+    padding: 10px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product h1 {
+    color: white;
+    font-size: 30px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bag1 {
+    height: 500px;
+  }
+  .bag2 {
+    height: 550px;
+  }
+  .gambar {
+    width: 200px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    /* padding: 20px; */
+  }
+  .product_card {
+    background-color: #032a40;
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 50px;
+    width: 280px; /* Ubah ukuran lebar sesuai kebutuhan */
+    height: 380px; /* Ubah ukuran tinggi sesuai kebutuhan */
+    border-radius: 10%;
+  }
+
+  .product_card h3 {
+    color: white;
+  }
+
+  .product_card p {
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .product_card:hover {
+    top: 0;
+    background-color: #009fe9;
+    transition: all 0.3s;
+  }
+  button {
+    background-color: white;
+    width: 50px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #093954;
+    font-family: "Poppins";
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .rangkapatas {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: 16vh;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+  }
+  .menu a:hover {
+    color: #093954;
+  }
+
+  .isian_navbar img {
+    padding-left: 20px;
+    width: 130px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    width: 100%;
+  }
+
+  .menu > li {
+    list-style-type: none;
+    padding: 20px;
+  }
+
+  .menu > li > a {
+    color: white;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  .navbar-extra a {
+    color: #ffff;
+    margin: 0 0.5rem;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  .contact-label {
+    font-size: 15px;
+    color: white;
+  }
+
+  .contact-item img {
+    padding: 10px;
+    width: 25px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product h1 {
+    color: white;
+    font-size: 30px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bag1 {
+    height: 400px;
+  }
+  .bag2 {
+    height: 410px;
+  }
+  .gambar {
+    width: 150px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    /* padding: 20px; */
+  }
+  .product_card {
+    background-color: #032a40;
+    margin: 20px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 50px;
+    width: 210px; /* Ubah ukuran lebar sesuai kebutuhan */
+    height: 320px; /* Ubah ukuran tinggi sesuai kebutuhan */
+    border-radius: 10%;
+  }
+
+  .product_card h3 {
+    color: white;
+  }
+
+  .product_card p {
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .product_card:hover {
+    top: 0;
+    background-color: #009fe9;
+    transition: all 0.3s;
+  }
+  button {
+    background-color: white;
+    width: 50px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 426px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #093954;
+    font-family: "Poppins";
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .rangkapatas {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+  }
+  .menu a:hover {
+    color: #093954;
+  }
+
+  .isian_navbar img {
+    padding: 30px;
+    width: 100px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 12px; */
+    padding-left: 0px;
+  }
+
+  .menu > li {
+    list-style-type: none;
+    padding: 3px;
+  }
+
+  .menu > li > a {
+    color: white;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  .navbar-extra a {
+    color: #ffff;
+    margin: 0 0.5rem;
+  }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 800px;
+  }
+
+  .contact-label {
+    font-size: 15px;
+    color: white;
+  }
+
+  .contact-item img {
+    padding: 10px;
+    width: 20px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product h1 {
+    color: white;
+    font-size: 30px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bag1 {
+    height: 500px;
+  }
+  .bag2 {
+    height: 550px;
+  }
+  .gambar {
+    width: 130px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    /* padding: 20px; */
+  }
+  .product_card {
+    background-color: #032a40;
+    margin: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+    width: 280px; /* Ubah ukuran lebar sesuai kebutuhan */
+    height: 330px; /* Ubah ukuran tinggi sesuai kebutuhan */
+    border-radius: 10%;
+  }
+  .bag2 {
+    display: none;
+  }
+  .product_card h3 {
+    color: white;
+  }
+
+  .product_card p {
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .product_card:hover {
+    top: 0;
+    background-color: #009fe9;
+    transition: all 0.3s;
+  }
+  button {
+    background-color: white;
+    width: 50px;
+    height: 20px;
+  }
+}
